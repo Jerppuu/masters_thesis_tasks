@@ -1,2 +1,8 @@
 #Conan
 /conan
+
+#CMake output
+/build
+
+Visual Studio Code
+.vscode
