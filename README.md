@@ -12,4 +12,11 @@ Before using Conan first time, profile of the development environment needs to b
 
 This can be done with command:  `conan profile detect`
 
-Running Conan is done with command `conan install . --output-folder=./conan --build=missing`
+### Build and executing
+
+#### Windows
+TODO: finish script and instructions on Windows environment
+
+#### MacOS and Linux
+ - run: `./build.sh`
+ - execute: `./conan/Master_thesis_tasks`

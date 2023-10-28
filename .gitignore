@@ -1,5 +1,6 @@
 #Conan
 /conan
+CMakeUserPresets.json
 
 #CMake output
 /build
