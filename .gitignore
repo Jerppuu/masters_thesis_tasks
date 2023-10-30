@@ -2,8 +2,9 @@
 /conan
 CMakeUserPresets.json
 
-#CMake output
-/build
+#CMake
+CMakeFiles
 
-Visual Studio Code
+#IDE
 .vscode
+.vs
