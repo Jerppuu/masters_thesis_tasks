@@ -18,9 +18,9 @@ This can be done with command:  `conan profile detect`
 ### Build and executing
 
 #### Windows
- - run: `.\build.bat`
- - execute: `.\conan\Release\Master_thesis_tasks.exe`
+ - Build: `.\build.bat`
+ - Execute: `.\conan\Release\Master_thesis_tasks.exe`
 
 #### MacOS and Linux
- - run: `./build.sh`
- - execute: `./conan/Master_thesis_tasks`
+ - Build: `./build.sh`
+ - Execute: `./conan/Master_thesis_tasks`
