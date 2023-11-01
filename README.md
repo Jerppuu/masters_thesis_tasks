@@ -3,7 +3,7 @@ Tasks and material for Master's thesis: Benefits of containerized development en
 
 ## Requirements
  - Python https://www.python.org/downloads/
- - CMake (>=3.27) https://cmake.org/download/
+ - CMake (>=3.22) https://cmake.org/download/
  - Conan https://conan.io/downloads
  - C++ compiler https://code.visualstudio.com/docs/languages/cpp
  
