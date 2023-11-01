@@ -2,25 +2,24 @@
 Tasks and material for Master's thesis: Benefits of containerized development environments
 
 ## Requirements
- - Python https://www.python.org/downloads/
- - CMake (>=3.22) https://cmake.org/download/
- - Conan https://conan.io/downloads
- - C++ compiler https://code.visualstudio.com/docs/languages/cpp
+ - Docker https://www.docker.com/get-started/
+ - Visual Studio Code https://code.visualstudio.com/
+ - Dev Containers extension https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
  
- (Windows build script is made for MSVC compiler)
+## Using Dev Containers
 
-## Using Conan
+Install the required software. Open project folder in Visual Studio Code.
 
-Before using Conan first time, profile of the development environment needs to be created.
+Open [Command Palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette): `View` -> `Command Palette`
 
-This can be done with command:  `conan profile detect`
+On Command Palette, run following: `>Dev Containers: Reopen in Container`
+
+Visual Studio Code opens in new window, with environment inside Dev Container.
+
+Terminal inside Dev Container can be used by opening one inside Visual Studio Code: `Terminal` -> `New Terminal`
+
 
 ### Build and executing
 
-#### Windows
- - Build: `.\build.bat`
- - Execute: `.\conan\Release\Master_thesis_tasks.exe`
-
-#### MacOS and Linux
  - Build: `./build.sh`
  - Execute: `./conan/Master_thesis_tasks`
