@@ -3,10 +3,11 @@
 #include "nlohmann/json.hpp"
 
 int main() {
-  std::ifstream istrm("src/example.json");
+  std::string path = "src/example.json";
+  std::ifstream istrm(path);
   
   if (!istrm.is_open())
-    std::cout << "failed to open example.json" << '\n';
+    std::cout << "failed to open " << path << std::endl;
   else
   {
       nlohmann::json data = nlohmann::json::parse(istrm);
@@ -15,6 +16,8 @@ int main() {
       for (auto& item : data.items()){
         std::cout << item.key() << " : " << item.value() << std::endl;
       }
+
+      std::cout << "Program compiled and ran successfully. You can return to the survey now." << std::endl;
   }
   return 0;
 } 
