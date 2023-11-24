@@ -5,9 +5,19 @@ Tasks and material for Master's thesis: Benefits of containerized development en
  - Python https://www.python.org/downloads/
  - CMake (>=3.22) https://cmake.org/download/
  - Conan https://conan.io/downloads
- - C++ compiler https://code.visualstudio.com/docs/languages/cpp
+ - C++ compiler
+
+### C++ compiler
+
+ How to check if you have a compiler installed
+
+- https://code.visualstudio.com/docs/languages/cpp#_check-if-you-have-a-compiler-installed
+
+How to Install a compiler
+
+- https://code.visualstudio.com/docs/languages/cpp#_install-a-compiler
  
- (Windows build script is made for MSVC compiler)
+Windows users need to use MinGW compiler, since Windows build script is made for it.
 
 ## Using Conan
 
@@ -19,7 +29,7 @@ This can be done with command:  `conan profile detect`
 
 #### Windows
  - Build: `.\build.bat`
- - Execute: `.\conan\Release\Master_thesis_tasks.exe`
+ - Execute: `.\conan\Master_thesis_tasks.exe`
 
 #### MacOS and Linux
  - Build: `./build.sh`
