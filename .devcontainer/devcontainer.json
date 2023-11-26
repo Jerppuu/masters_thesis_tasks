@@ -5,8 +5,8 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
-	// Setup conan profile on first start.
-	"postCreateCommand": "conan profile detect -vquiet"
+	// Setup conan profile on first start and remove \r-symbols from build script.
+	"postCreateCommand": "conan profile detect -vquiet && sed -i -e 's/\r$//' ./build.sh"
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
