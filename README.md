@@ -8,18 +8,20 @@ Tasks and material for Master's thesis: Benefits of containerized development en
  
 ## Using Dev Containers
 
-Install the required software. Open project folder in Visual Studio Code.
+1. Install the required software. Open project folder in Visual Studio Code.
 
-Open [Command Palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette): `View` -> `Command Palette`
+2. Open Command Palette by pressing ctr + shift + P or from menu bar: `View` -> `Command Palette`
 
-On Command Palette, run following: `>Dev Containers: Reopen in Container`
+3. On Command Palette, run following: `>Dev Containers: Reopen in Container`
 
-Visual Studio Code opens in new window, with environment inside Dev Container.
+4. Visual Studio Code opens in new window, with environment inside Dev Container.
 
-Terminal inside Dev Container can be used by opening one inside Visual Studio Code: `Terminal` -> `New Terminal`
+5. Terminal inside Dev Container can be used by opening one from menu bar: `Terminal` -> `New Terminal`
 
 
 ### Build and executing
+
+Build and execute commands need to be run on Dev Container terminal, see Using Dev Container step 5.
 
  - Build: `./build.sh`
  - Execute: `./conan/Master_thesis_tasks`
