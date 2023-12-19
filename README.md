@@ -5,9 +5,9 @@ Tasks and material for Master's thesis: Benefits of containerized development en
  - Python https://www.python.org/downloads/
  - CMake (>=3.22) https://cmake.org/download/
  - Conan https://conan.io/downloads
- - C++ compiler
+ - G++ compiler
 
-### C++ compiler
+### G++ compiler
 
  How to check if you have a compiler installed
 
