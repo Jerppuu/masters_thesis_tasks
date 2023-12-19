@@ -21,6 +21,8 @@ Windows users need to use MinGW compiler, since Windows build script is made for
 
 ## Build and executing
 
+### Run these commands in root of this  project folder.
+
 Before using Conan first time, profile of the development environment needs to be created.
 
 This can be done with command:  `conan profile detect`
