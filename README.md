@@ -19,13 +19,11 @@ How to Install a compiler
  
 Windows users need to use MinGW compiler, since Windows build script is made for it.
 
-## Using Conan
+## Build and executing
 
 Before using Conan first time, profile of the development environment needs to be created.
 
 This can be done with command:  `conan profile detect`
-
-### Build and executing
 
 #### Windows
  - Build: `.\build.bat`
